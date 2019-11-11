@@ -71,6 +71,12 @@ class Word {
             cout << *iter << endl;
     }
 
+    string getAttactWord(void) {
+
+        list<string>::iterator iter=attackWord.begin();
+        return *iter;
+    }
+
     void printServerWord(void) { // serverWord 출력
 
         list<string>::iterator iter;

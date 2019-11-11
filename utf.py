@@ -1,0 +1,5 @@
+ori = open(file="a.db",mode="rt",encoding="utf-8")
+out = open(file=".db",mode="wt",encoding="utf-32")
+out.write(ori.read())
+out.close()
+ori.close()
